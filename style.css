@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: plum;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 120px;
+    height: 120px;
+    background: white;
+    margin: 2px 50px;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image:hover{
+    border: 3px solid white;
+}
+img{
+    width: 120px;
+    height: 116px;
+    border-radius: 50%;
+}
+.info-container{
+    width: 1100px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gainsboro;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.profile{
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0;
+}
+.name{
+    margin-top: 80px;
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 50px;
+    line-height: 20px;
+}
+.status{
+    padding: 0px 20px;
+    text-align: left;
+    line-height: 20px;
+    margin: 0;
+}
+.about{
+    height: 240px;
+    padding: 0px 20px;
+}
